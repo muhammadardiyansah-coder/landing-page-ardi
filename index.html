@@ -21,6 +21,7 @@
     </ul>
     <a href="#contact" class="btn">Hire Me</a>
     <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+    <div class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></div>
   </nav>
 
   <!-- HERO -->
@@ -38,6 +39,21 @@
       </div>
     </div>
   </section>
+  <section class="section testimonial">
+  <div class="container">
+    <h2 class="section-title fade">Kata <span>Client</span></h2>
+    <div class="testi-slider fade">
+      <div class="testi-card">
+        <p>"Website dari mas ini bener2 nambahin omset 200%. Recommended!"</p>
+        <h4>- Budi, Owner UMKM</h4>
+      </div>
+      <div class="testi-card">
+        <p>"Pengerjaan cepat, hasil mewah. Harga worth it banget."</p>
+        <h4>- Sari, CEO Startup</h4>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- ABOUT -->
   <section class="section" id="about">
@@ -54,8 +70,85 @@
         </p>
         <a href="#" class="btn">Download CV</a>
       </div>
+      <div class="stats-mini">
+  <div><h3 class="counter" data-target="25">50+</h3><p>Project</p></div>
+  <div><h3 class="counter" data-target="3">100+</h3><p>Tahun</p></div>
+  <div><h3 class="counter" data-target="100">200+</h3><p>Client</p></div>
+</div>
     </div>
   </section>
+  <section class="section stats">
+  <div class="container stats-grid">
+    <div class="stat-item fade">
+      <h3 class="counter" data-target="32">0</h3>
+      <p>Project Selesai</p>
+    </div>
+    <div class="stat-item fade">
+      <h3 class="counter" data-target="28">0</h3>
+      <p>Client Puas</p>
+    </div>
+    <div class="stat-item fade">
+      <h3 class="counter" data-target="3">0</h3>
+      <p>Tahun Pengalaman</p>
+    </div>
+    <div class="stat-item fade">
+      <h3 class="counter" data-target="24">0</h3>
+      <p>Jam Respon</p>
+    </div>
+  </div>
+<section style="padding:70px 20px; background:#0a0a0a; overflow:hidden;">
+  <h2 style="font-size:26px; text-align:center; margin-bottom:40px; color:#fff; font-weight:700;">
+    Dibuat dengan <span style="background: linear-gradient(90deg, #00f5ff, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Teknologi Terbaik</span>
+  </h2>
+  
+  <div style="overflow:hidden; mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);">
+    <div style="display:flex; align-items:center; gap:40px; width:max-content; animation: tech-scroll 18s linear infinite;">
+      
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/html5-original.svg" alt="HTML5" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/css3-original.svg" alt="CSS3" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/wordpress-plain.svg" alt="WordPress" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/figma-original.svg" alt="Figma" width="50" height="50" style="display:block;">
+      </div>
+
+      <!-- DUPLIKAT BUAT LOOP -->
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/html5-original.svg" alt="HTML5" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/css3-original.svg" alt="CSS3" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/wordpress-plain.svg" alt="WordPress" width="50" height="50" style="display:block;">
+      </div>
+      <div style="width:70px; height:70px; flex-shrink:0; padding:10px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px;">
+        <img src="assets/img/figma-original.svg" alt="Figma" width="50" height="50" style="display:block;">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+@keyframes tech-scroll{
+  from{transform: translateX(0)}
+  to{transform: translateX(-50%)}
+}
+/* PAUSE PAS DIHOVER */
+div[style*="animation: tech-scroll"]{ animation-play-state: running; }
+div[style*="animation: tech-scroll"]:hover{ animation-play-state: paused; }
+
+/* EFEK HOVER GLOW */
+div[style*="width:70px; height:70px"]{ transition: 0.3s; }
+div[style*="width:70px; height:70px"]:hover{ transform: translateY(-5px); box-shadow: 0 0 25px rgba(168,85,247,0.4); }
+</style>
+
 
   <!-- SERVICES -->
   <section class="section services" id="service">
@@ -80,43 +173,286 @@
       </div>
     </div>
   </section>
+  <section class="section">
+  <div class="container">
+    <h2 class="section-title fade">Tools <span>Yang Saya Kuasai</span></h2>
+    <div class="tech-grid">
+      <div class="tech-item fade"><i class="fab fa-html5"></i><p>HTML5</p></div>
+      <div class="tech-item fade"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+      <div class="tech-item fade"><i class="fab fa-js"></i><p>JavaScript</p></div>
+      <div class="tech-item fade"><i class="fab fa-react"></i><p>React</p></div>
+      <div class="tech-item fade"><i class="fab fa-figma"></i><p>Figma</p></div>
+      <div class="tech-item fade"><i class="fab fa-github"></i><p>Github</p></div>
+    </div>
+  </div>
+<section id="pricing" style="background:#111; padding:100px 20px;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <h2 style="text-align:center; font-size:40px; margin-bottom:50px; color:#fff;">Paket <span style="color:#D4FF00;">Harga</span></h2>
+    
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:30px;">
+
+      <!-- CARD 1 -->
+      <div style="background:#1A1A1A; padding:40px 30px; border-radius:20px; border:1px solid #333; display:flex; flex-direction:column;">
+        <h3 style="font-size:24px; color:#fff; margin-bottom:10px;">Landing Page</h3>
+        <h4 style="font-size:36px; color:#D4FF00; margin-bottom:25px; font-weight:900;">Rp 1.500.000</h4>
+        <ul style="list-style:none; margin-bottom:30px; flex-grow:1; color:#ccc;">
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ 1 Halaman Website</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Desain Custom</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Mobile Responsive</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Free Revisi 2x</li>
+          <li style="padding:10px 0;">✓ Waktu 3-5 Hari</li>
+        </ul>
+        <a href="#contact" style="display:block; width:100%; background:#D4FF00; color:#000; padding:15px; border-radius:10px; font-weight:800; text-decoration:none; text-align:center;">Pesan Sekarang</a>
+      </div>
+
+      <!-- CARD 2 -->
+      <div style="background:#222; padding:40px 30px; border-radius:20px; border:2px solid #D4FF00; display:flex; flex-direction:column; position:relative; transform:scale(1.05);">
+        <span style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:#D4FF00; color:#000; padding:6px 18px; border-radius:20px; font-size:12px; font-weight:800;">Paling Populer</span>
+        <h3 style="font-size:24px; color:#fff; margin-bottom:10px;">Company Profile</h3>
+        <h4 style="font-size:36px; color:#D4FF00; margin-bottom:25px; font-weight:900;">Rp 3.500.000</h4>
+        <ul style="list-style:none; margin-bottom:30px; flex-grow:1; color:#ccc;">
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ 5 Halaman Website</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Desain Premium</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Form Kontak + WA</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ SEO Basic</li>
+          <li style="padding:10px 0;">✓ Free Revisi 3x</li>
+        </ul>
+        <a href="#contact" style="display:block; width:100%; background:#D4FF00; color:#000; padding:15px; border-radius:10px; font-weight:800; text-decoration:none; text-align:center;">Pesan Sekarang</a>
+      </div>
+
+      <!-- CARD 3 -->
+      <div style="background:#1A1A1A; padding:40px 30px; border-radius:20px; border:1px solid #333; display:flex; flex-direction:column;">
+        <h3 style="font-size:24px; color:#fff; margin-bottom:10px;">Toko Online</h3>
+        <h4 style="font-size:36px; color:#D4FF00; margin-bottom:25px; font-weight:900;">Rp 7.000.000</h4>
+        <ul style="list-style:none; margin-bottom:30px; flex-grow:1; color:#ccc;">
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Produk Unlimited</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Keranjang + Checkout</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Payment Gateway</li>
+          <li style="padding:10px 0; border-bottom:1px dashed #333;">✓ Admin Dashboard</li>
+          <li style="padding:10px 0;">✓ Free Revisi 3x</li>
+        </ul>
+        <a href="#contact" style="display:block; width:100%; background:#D4FF00; color:#000; padding:15px; border-radius:10px; font-weight:800; text-decoration:none; text-align:center;">Pesan Sekarang</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+@media(max-width:900px){
+  #pricing > div > div {grid-template-columns:1fr !important;}
+  #pricing > div > div > div:nth-child(2){transform:scale(1) !important;}
+}
+</style>
+<style>
+#pricing > div > div > div{
+  transition: all 0.4s ease;
+  cursor:pointer;
+}
+#pricing > div > div > div:hover{
+  transform: translateY(-15px) scale(1.02);
+  border-color: #D4FF00 !important;
+  box-shadow: 0 20px 50px rgba(212, 255, 0, 0.25);
+  background: #222 !important;
+}
+</style>
+
+    </div>
+  </div>
+</section>
+<section class="section process">
+  <div class="container">
+    <h2 class="section-title fade">Proses <span>Kerja</span></h2>
+    <p class="section-subtitle fade">4 langkah simpel sampe website kamu jadi</p>
+    <div class="process-grid">
+      <div class="process-item fade">
+        <div class="process-number">01</div>
+        <h3>Diskusi</h3>
+        <p>Kita ngobrolin kebutuhan, target, dan referensi website kamu</p>
+      </div>
+      <div class="process-item fade">
+        <div class="process-number">02</div>
+        <h3>Desain</h3>
+        <p>Gua bikinin mockup di Figma. Revisi sampe kamu suka</p>
+      </div>
+      <div class="process-item fade">
+        <div class="process-number">03</div>
+        <h3>Development</h3>
+        <p>Masuk tahap coding. Dijadiin website beneran yang responsif</p>
+      </div>
+      <div class="process-item fade">
+        <div class="process-number">04</div>
+        <h3>Launch</h3>
+        <p>Website online + gua kasih tutorial + garansi 30 hari</p>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- PORTFOLIO -->
-  <section class="section" id="portfolio">
-    <div class="container">
-      <h2 class="section-title fade">Portfolio <span>Terbaru</span></h2>
-      <div class="portfolio-grid">
-        <div class="portfolio-item fade">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800" alt="">
-          <div class="portfolio-overlay">
-            <h3>Landing Page GudangPro</h3>
-            <p>Web Dev + Design</p>
-          </div>
+ <!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <h2 class="section-title fade">Portfolio <span>Terbaru</span></h2>
+    <p class="section-subtitle fade">Beberapa project yang udah gua kerjain</p>
+    
+    <div class="portfolio-grid">
+      <div class="portfolio-item fade">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800" alt="Project 1">
+        <div class="portfolio-overlay">
+          <h3>Landing Page GudangPro</h3>
+          <p>Web Dev + UI Design</p>
+          <a href="#" class="btn-mini">Lihat Detail</a>
         </div>
-        <div class="portfolio-item fade">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800" alt="">
-          <div class="portfolio-overlay">
-            <h3>Website Portfolio</h3>
-            <p>Web Dev</p>
-          </div>
+      </div>
+      
+      <div class="portfolio-item fade">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800" alt="Project 2">
+        <div class="portfolio-overlay">
+          <h3>Website Portfolio</h3>
+          <p>Web Development</p>
+          <a href="#" class="btn-mini">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item fade">
+        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=800" alt="Project 3">
+        <div class="portfolio-overlay">
+          <h3>Toko Online UMKM</h3>
+          <p>Fullstack Web</p>
+          <a href="#" class="btn-mini">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item fade">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800" alt="Project 4">
+        <div class="portfolio-overlay">
+          <h3>Dashboard Admin</h3>
+          <p>UI/UX + React</p>
+          <a href="#" class="btn-mini">Lihat Detail</a>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section contact" id="contact">
-    <div class="container">
-      <h2 class="section-title fade">Mari <span>Bekerja</span> Sama</h2>
-      <p class="fade contact-desc">Punya project? Yuk ngobrol</p>
-      <a href="https://wa.me/62895345775885" class="btn fade"><i class="fab fa-whatsapp"></i> Chat di WhatsApp</a>
+  </div>
+<section class="section cta-banner">
+  <div class="container">
+    <div class="cta-box fade">
+      <div class="cta-text">
+        <h2>Siap Punya Website Keren?</h2>
+        <p>Jangan sampe kompetitor kamu duluan online. Konsultasi GRATIS sekarang</p>
+      </div>
+      <a href="#contact" class="btn-cta">Konsultasi Gratis</a>
     </div>
-  </section>
+  </div>
+</section>
+<section class="section faq">
+  <div class="container">
+    <h2 class="section-title fade">Pertanyaan <span>Umum</span></h2>
+    <div class="faq-item fade">
+      <h3>Berapa lama pengerjaan website?</h3>
+      <p>Landing page 3-5 hari. Website company 7-14 hari tergantung fitur.</p>
+    </div>
+    <div class="faq-item fade">
+      <h3>Apakah ada garansi?</h3>
+      <p>Ada. Free revisi 3x dan garansi bug 30 hari setelah website live.</p>
+    </div>
+  </div>
+</section>
+<section class="section faq">
+  <div class="container">
+    <h2 class="section-title fade">Pertanyaan <span>Umum</span></h2>
+    <div class="faq-list">
+      <div class="faq-item fade">
+        <h3>Berapa lama pengerjaan website?</h3>
+        <p>Landing page 3-5 hari kerja. Website company 7-14 hari tergantung fitur.</p>
+      </div>
+      <div class="faq-item fade">
+        <h3>Apakah ada garansi dan revisi?</h3>
+        <p>Ada. Free revisi 3x dan garansi bug 30 hari setelah website live.</p>
+      </div>
+      <div class="faq-item fade">
+        <h3>Apakah sudah termasuk domain dan hosting?</h3>
+        <p>Belum. Tapi nanti gua pandu sampe website kamu online 100%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section blog">
+  <div class="container">
+    <h2 class="section-title fade">Artikel <span>Terbaru</span></h2>
+    <div class="blog-grid">
+      <div class="blog-card fade">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=600" alt="">
+        <div class="blog-content">
+          <span class="blog-date">20 Juli 2026</span>
+          <h3>5 Kesalahan Fatal Bikin Website Bisnis</h3>
+          <a href="#">Baca Selengkapnya →</a>
+        </div>
+      </div>
+      <div class="blog-card fade">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600" alt="">
+        <div class="blog-content">
+          <span class="blog-date">18 Juli 2026</span>
+          <h3>Landing Page vs Website: Mana Yang Cocok?</h3>
+          <a href="#">Baca Selengkapnya →</a>
+        </div>
+      </div>
+      <div class="blog-card fade">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600" alt="">
+        <div class="blog-content">
+          <span class="blog-date">15 Juli 2026</span>
+          <h3>Tips SEO 2026 Biar Website Muncul di Halaman 1</h3>
+          <a href="#">Baca Selengkapnya →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <h2 class="section-title fade">Mari <span>Bekerja</span> Sama</h2>
+    <p class="fade contact-desc">Punya project? Yuk ngobrol</p>
+    
+    <a href="https://wa.me/628123456789" target="_blank" class="btn btn-wa fade">
+      <i class="fab fa-whatsapp"></i> Chat di WhatsApp
+    </a>
+  </div>
+</section>
 
   <!-- FOOTER -->
-  <footer>
-    <p>© 2026 Muhammad Ardiyansyah. Dibuat dengan ❤️</p>
-  </footer>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Muhammad Ardiyansyah</h3>
+        <p>Web Developer & UI Designer dari Indonesia. Siap bantu bisnis kamu go online.</p>
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <a href="#service">Jasa</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#pricing">Harga</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <p><i class="fas fa-envelope"></i> gantengiyanganteng@gmail.com</p>
+        <p><i class="fab fa-whatsapp"></i> +62 895 3457 75885</p>
+        <p><i class="fas fa-map-marker-alt"></i> Depok, Indonesia</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Muhammad Ardiyansyah. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
   <script src="script.js"></script> <!-- JS -->
 </body>
